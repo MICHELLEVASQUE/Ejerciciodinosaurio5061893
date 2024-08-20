@@ -16,7 +16,9 @@ namespace Ejerciciodinosaurio5061893
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Services.AddSingleton<LocalDbService>();
+            builder.Services.AddTransient<MainPage>();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();

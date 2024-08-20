@@ -9,7 +9,7 @@ namespace Ejerciciodinosaurio5061893
 {
     public class LocalDbService
     {
-        private const string DB_NAME = "demo_dinosaurio.db3";
+        private const string DB_NAME = "demo_convertir.db3";
         private readonly SQLiteAsyncConnection _connection;
 
         public LocalDbService()

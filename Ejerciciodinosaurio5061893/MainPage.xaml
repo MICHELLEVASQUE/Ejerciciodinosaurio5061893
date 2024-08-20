@@ -42,7 +42,7 @@
                     <DataTemplate>
                         <ViewCell>
                             <VerticalStackLayout Padding="5">
-                                <Label Text="{Binding Numero1}" FontSize="17" FontAttributes="Bold"/>
+                                <Label Text="{Binding Nombredino}" FontSize="17" FontAttributes="Bold"/>
                                 <Grid>
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="Auto"/>
@@ -50,8 +50,9 @@
                                         <ColumnDefinition Width="Auto"/>
 
                                     </Grid.ColumnDefinitions>
-                                    <Label Grid.Column="0" Text="{Binding Numero2}"/>
-                                    <Label Grid.Column="2" Text="{Binding Suma}" FontAttributes="Bold"/>
+                                    <Label Grid.Column="0" Text="{Binding Longitudpies}"/>
+                                    <Label Grid.Column="0" Text="{Binding Pesolibras}"/>
+                                    <Label Grid.Column="2" Text="{Binding Convertir}" FontAttributes="Bold"/>
                                 </Grid>
                             </VerticalStackLayout>
                         </ViewCell>
